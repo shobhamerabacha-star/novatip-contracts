@@ -15,8 +15,6 @@ Cargo.lock.bak
 test_snapshots/
 
 # Env & secrets
-.env
-.env.*
 !.env.example
 *.key
 identity.toml
@@ -24,5 +22,6 @@ identity.toml
 # Editor / OS
 .DS_Store
 .idea/
-.vscode/
 *.swp
+config.bat
+node_modules
